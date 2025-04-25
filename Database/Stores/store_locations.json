@@ -1,0 +1,98 @@
+{
+    "locations": [
+        {
+            "name": "Market Square",
+            "default_name": "Market Square General Store",
+            "default_type": "General",
+            "price": 10000,
+            "customer_visit_chance": 0.01,
+            "price_multiplier": 1.5,
+            "description": "A bustling market square in the heart of the city. High foot traffic but competitive prices.",
+            "max_display_items": 10,
+            "daily_visitors": 100,
+            "allowed_types": ["General", "Food", "Clothing", "Tools"],
+            "price_tiers": {
+                "low": {"max_price": 1000, "sale_chance": 0.001},
+                "medium": {"max_price": 5000, "sale_chance": 0.0005},
+                "high": {"max_price": 10000, "sale_chance": 0.0001},
+                "premium": {"max_price": 50000, "sale_chance": 0.00001},
+                "luxury": {"max_price": 100000, "sale_chance": 0.000001}
+            }
+        },
+        {
+            "name": "Harbor District",
+            "default_name": "Harbor Trading Post",
+            "default_type": "Trade",
+            "price": 15000,
+            "customer_visit_chance": 0.15,
+            "price_multiplier": 1.8,
+            "description": "Located near the busy harbor, frequented by sailors and traders. Higher prices but more customers.",
+            "max_display_items": 8,
+            "daily_visitors": 80,
+            "allowed_types": ["Trade", "General", "Tools", "Luxury"],
+            "price_tiers": {
+                "low": {"max_price": 2000, "sale_chance": 0.04},
+                "medium": {"max_price": 10000, "sale_chance": 0.015},
+                "high": {"max_price": 20000, "sale_chance": 0.008},
+                "premium": {"max_price": 100000, "sale_chance": 0.004},
+                "luxury": {"max_price": 200000, "sale_chance": 0.0008}
+            }
+        },
+        {
+            "name": "Noble Quarter",
+            "default_name": "Noble Quarter Boutique",
+            "default_type": "Luxury",
+            "price": 50000,
+            "customer_visit_chance": 0.005,
+            "price_multiplier": 2.2,
+            "description": "An upscale district where nobles and wealthy merchants shop. Premium prices and wealthy customers.",
+            "max_display_items": 6,
+            "daily_visitors": 50,
+            "allowed_types": ["Luxury", "Jewelry", "Art", "Fashion"],
+            "price_tiers": {
+                "low": {"max_price": 5000, "sale_chance": 0.0005},
+                "medium": {"max_price": 20000, "sale_chance": 0.0002},
+                "high": {"max_price": 50000, "sale_chance": 0.00005},
+                "premium": {"max_price": 200000, "sale_chance": 0.000005},
+                "luxury": {"max_price": 500000, "sale_chance": 0.000001}
+            }
+        },
+        {
+            "name": "Artisan's Row",
+            "default_name": "Artisan's Workshop",
+            "default_type": "Craft",
+            "price": 20000,
+            "customer_visit_chance": 0.18,
+            "price_multiplier": 2.0,
+            "description": "A street known for high-quality crafts and unique items. Popular among collectors and enthusiasts.",
+            "max_display_items": 7,
+            "daily_visitors": 60,
+            "allowed_types": ["Craft", "Art", "Tools", "General"],
+            "price_tiers": {
+                "low": {"max_price": 3000, "sale_chance": 0.035},
+                "medium": {"max_price": 15000, "sale_chance": 0.014},
+                "high": {"max_price": 30000, "sale_chance": 0.007},
+                "premium": {"max_price": 150000, "sale_chance": 0.0035},
+                "luxury": {"max_price": 300000, "sale_chance": 0.0007}
+            }
+        },
+        {
+            "name": "Royal District",
+            "default_name": "Royal District Emporium",
+            "default_type": "Luxury",
+            "price": 200000,
+            "customer_visit_chance": 0.001,
+            "price_multiplier": 3.0,
+            "description": "The most prestigious shopping district in the kingdom, frequented by royalty and the ultra-wealthy. Extremely high prices but rare, valuable customers.",
+            "max_display_items": 5,
+            "daily_visitors": 20,
+            "allowed_types": ["Luxury", "Art", "Jewelry", "Rare"],
+            "price_tiers": {
+                "low": {"max_price": 20000, "sale_chance": 0.0002},
+                "medium": {"max_price": 100000, "sale_chance": 0.00005},
+                "high": {"max_price": 500000, "sale_chance": 0.00001},
+                "luxury": {"max_price": 1000000, "sale_chance": 0.000001}
+            }
+        }
+    ]
+} 

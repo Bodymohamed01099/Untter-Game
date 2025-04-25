@@ -1,0 +1,307 @@
+{
+    "stores": {
+        "Weapons Shop": {
+            "payment": "cash",
+            "items": [
+                {
+                    "name": "Sword",
+                    "price": 150,
+                    "type": "weapon",
+                    "description": "A basic sword for beginners",
+                    "stats": {
+                        "attack": 10,
+                        "durability": 100
+                    }
+                },
+                {
+                    "name": "Shield",
+                    "price": 100,
+                    "type": "armor",
+                    "description": "A sturdy shield for defense",
+                    "stats": {
+                        "defense": 8,
+                        "durability": 80
+                    }
+                },
+                {
+                    "name": "Dagger",
+                    "price": 75,
+                    "type": "weapon",
+                    "description": "A quick and agile dagger",
+                    "stats": {
+                        "attack": 7,
+                        "speed": 12
+                    }
+                },
+                {
+                    "name": "Battle Axe",
+                    "price": 220,
+                    "type": "weapon",
+                    "description": "Heavy axe with devastating power",
+                    "stats": {
+                        "attack": 18,
+                        "durability": 90,
+                        "speed": 5
+                    }
+                },
+                {
+                    "name": "Spear",
+                    "price": 180,
+                    "type": "weapon",
+                    "description": "Long-range weapon with good reach",
+                    "stats": {
+                        "attack": 12,
+                        "durability": 85,
+                        "speed": 9
+                    }
+                },
+                {
+                    "name": "War Hammer",
+                    "price": 250,
+                    "type": "weapon",
+                    "description": "Massive hammer that crushes armor",
+                    "stats": {
+                        "attack": 20,
+                        "durability": 110,
+                        "speed": 4
+                    }
+                },
+                {
+                    "name": "Katana",
+                    "price": 300,
+                    "type": "weapon",
+                    "description": "Sharp blade with excellent cutting power",
+                    "stats": {
+                        "attack": 15,
+                        "durability": 75,
+                        "speed": 14
+                    }
+                }
+            ]
+        },
+        "Magic Store": {
+            "payment": "visa",
+            "items": [
+                {
+                    "name": "Health Potion",
+                    "price": 50,
+                    "type": "consumable",
+                    "description": "Restores 50 health points",
+                    "effect": "heal",
+                    "value": 50
+                },
+                {
+                    "name": "Mana Potion",
+                    "price": 75,
+                    "type": "consumable",
+                    "description": "Restores 30 mana points",
+                    "effect": "mana",
+                    "value": 30
+                },
+                {
+                    "name": "Fire Scroll",
+                    "price": 120,
+                    "type": "magic",
+                    "description": "Casts a fire spell",
+                    "effect": "fire",
+                    "damage": 25
+                },
+                {
+                    "name": "Greater Health Potion",
+                    "price": 120,
+                    "type": "consumable",
+                    "description": "Restores 150 health points",
+                    "effect": "heal",
+                    "value": 150
+                },
+                {
+                    "name": "Greater Mana Potion",
+                    "price": 150,
+                    "type": "consumable",
+                    "description": "Restores 100 mana points",
+                    "effect": "mana",
+                    "value": 100
+                },
+                {
+                    "name": "Ice Scroll",
+                    "price": 130,
+                    "type": "magic",
+                    "description": "Casts an ice spell that freezes enemies",
+                    "effect": "ice",
+                    "damage": 20
+                },
+                {
+                    "name": "Lightning Scroll",
+                    "price": 150,
+                    "type": "magic",
+                    "description": "Casts a lightning spell with chain effect",
+                    "effect": "lightning",
+                    "damage": 30
+                },
+                {
+                    "name": "Teleportation Amulet",
+                    "price": 300,
+                    "type": "magic",
+                    "description": "Allows instant teleportation to safe locations",
+                    "effect": "teleport",
+                    "value": 1
+                },
+                {
+                    "name": "Invisibility Potion",
+                    "price": 200,
+                    "type": "consumable",
+                    "description": "Makes the user invisible for a short time",
+                    "effect": "invisibility",
+                    "value": 60
+                }
+            ]
+        },
+        "Armor Shop": {
+            "payment": "cash",
+            "items": [
+                {
+                    "name": "Leather Armor",
+                    "price": 200,
+                    "type": "armor",
+                    "description": "Basic leather protection",
+                    "stats": {
+                        "defense": 15,
+                        "durability": 120
+                    }
+                },
+                {
+                    "name": "Chainmail",
+                    "price": 350,
+                    "type": "armor",
+                    "description": "Strong metal chain protection",
+                    "stats": {
+                        "defense": 25,
+                        "durability": 200
+                    }
+                },
+                {
+                    "name": "Plate Armor",
+                    "price": 500,
+                    "type": "armor",
+                    "description": "Heavy but extremely protective full plate armor",
+                    "stats": {
+                        "defense": 40,
+                        "durability": 300,
+                        "speed": -5
+                    }
+                },
+                {
+                    "name": "Dragon Scale Armor",
+                    "price": 1200,
+                    "type": "armor",
+                    "description": "Legendary armor made from dragon scales",
+                    "stats": {
+                        "defense": 60,
+                        "durability": 500,
+                        "fire_resistance": 30
+                    }
+                },
+                {
+                    "name": "Helmet",
+                    "price": 150,
+                    "type": "armor",
+                    "description": "Protects the head from critical hits",
+                    "stats": {
+                        "defense": 12,
+                        "durability": 150
+                    }
+                },
+                {
+                    "name": "Gauntlets",
+                    "price": 120,
+                    "type": "armor",
+                    "description": "Armored gloves for hand protection",
+                    "stats": {
+                        "defense": 8,
+                        "durability": 100
+                    }
+                },
+                {
+                    "name": "Boots",
+                    "price": 130,
+                    "type": "armor",
+                    "description": "Reinforced footwear",
+                    "stats": {
+                        "defense": 10,
+                        "durability": 120,
+                        "speed": 2
+                    }
+                }
+            ]
+        },
+        "Potion Emporium": {
+            "payment": "visa",
+            "items": [
+                {
+                    "name": "Strength Potion",
+                    "price": 100,
+                    "type": "consumable",
+                    "description": "Temporarily increases attack power",
+                    "effect": "strength",
+                    "value": 15
+                },
+                {
+                    "name": "Speed Potion",
+                    "price": 90,
+                    "type": "consumable",
+                    "description": "Temporarily increases movement speed",
+                    "effect": "speed",
+                    "value": 20
+                },
+                {
+                    "name": "Antidote",
+                    "price": 60,
+                    "type": "consumable",
+                    "description": "Cures poison effects",
+                    "effect": "cure",
+                    "value": 1
+                },
+                {
+                    "name": "Elixir of Life",
+                    "price": 500,
+                    "type": "consumable",
+                    "description": "Fully restores health and removes all negative effects",
+                    "effect": "heal",
+                    "value": 999
+                }
+            ]
+        },
+        "Blacksmith": {
+            "payment": "cash",
+            "items": [
+                {
+                    "name": "Legendary Sword",
+                    "price": 1000,
+                    "type": "weapon",
+                    "description": "A masterfully crafted sword of legendary quality",
+                    "stats": {
+                        "attack": 50,
+                        "durability": 300,
+                        "speed": 10
+                    }
+                },
+                {
+                    "name": "Repair Kit",
+                    "price": 80,
+                    "type": "consumable",
+                    "description": "Repairs damaged weapons and armor",
+                    "effect": "repair",
+                    "value": 50
+                },
+                {
+                    "name": "Weapon Enhancement Stone",
+                    "price": 250,
+                    "type": "consumable",
+                    "description": "Permanently increases weapon attack power",
+                    "effect": "enhance",
+                    "value": 5
+                }
+            ]
+        }
+    }
+} 
