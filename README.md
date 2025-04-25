@@ -162,7 +162,7 @@ The-Untter-Game/
 To install the game, simply clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/The-Untter-Game.git
+git clone https://github.com/Bodymohamed01099/Untter-Game.git
 ```
 
 Then, navigate into the project folder:
